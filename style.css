@@ -1,44 +1,25 @@
 body {
-  background-color: black;
-  text-align: center;
-  margin-top: 100px;
-  font-family: "Montserrat", Helvetica, sans-serif;
-  text-transform: none;
-  line-height: 1.3;
-  font-weight: normal;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+  box-shadow: none;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.blog-title {
+  font-size: 14pt;
+  font-weight: bold;
 }
 
 #logo {
-  margin: auto auto
-}
-
-.btn {
-      color: white;
-      width: 200px;
-      height: 50px;
-      font: 16px "Montserrat", Helvetica, sans-serif;
-      font-weight: normal;
-      background-color: #F1CA11;
-      text-shadow:
-    -1px -1px 0 #736102,
-    1px -1px 0 #736102,
-    -1px 1px 0 #736102,
-    1px 1px 0 #736102;
-}
-
-.btn:hover{
-  text-shadow: none;
-}
-
-a {
-  color: #26A9E1;
-}
-
-#presentation {
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-
-h1, h2, h3, h4 {
-  color: white;
+font-family: Chivo,sans-serif!important;
+ font-style: italic;
+ font-weight: 700;
 }
