@@ -23,3 +23,13 @@ font-family: Chivo,sans-serif!important;
  font-style: italic;
  font-weight: 700;
 }
+
+.contact-links {
+   text-align: right;
+}
+
+@media only screen and (max-width : 600px) {
+  .contact-links {
+     text-align: left;
+  }
+}
